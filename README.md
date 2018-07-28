@@ -12,3 +12,9 @@ Execute the following steps to install and use this configurations and plugins.
   cd ..
   ln -s .vim/vimrc .vimrc 
 ```
+
+## Extra packages
+
+| package name | link |
+| ---- | ---- |
+| FZF | https://github.com/junegunn/fzf |
