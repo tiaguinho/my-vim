@@ -1,6 +1,6 @@
 execute pathogen#infect()
 syntax on
-color dracula
+colorscheme dracula
 filetype plugin indent on
 
 " enable number
