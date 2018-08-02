@@ -3,8 +3,9 @@ syntax on
 colorscheme dracula
 filetype plugin indent on
 
-" enable number
+" basic configs
 set number
+set termguicolors
 set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
 
 " custom map keys
@@ -21,7 +22,7 @@ nnoremap <silent> <expr> <c-p> (expand('%') =~ 'NERD_tree' ? "\<c-w>\<c-w>" : ''
 " enable tabline
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tmuxline#enabled = 1
-let g:airline#extensions#tabline#formatter = 'default'
+let g:airline#extensions#tabline#formatter = 'unique_tail'
 let g:airline_powerline_fonts = 1
 
 " syntastic configs
