@@ -1,6 +1,9 @@
 execute pathogen#infect()
 syntax on
-colorscheme dracula
+set t_Co=256
+set t_ut=
+set background=dark
+colorscheme snow
 filetype plugin indent on
 
 " basic configs
