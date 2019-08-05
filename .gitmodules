@@ -28,3 +28,18 @@
 [submodule "bundle/snow"]
 	path = bundle/snow
 	url = https://github.com/nightsense/snow
+[submodule "bundle/vim-color-forest-night"]
+	path = bundle/vim-color-forest-night
+	url = https://github.com/sainnhe/vim-color-forest-night
+[submodule "bundle/base16-vim"]
+	path = bundle/base16-vim
+	url =	https://github.com/chriskempson/base16-vim.git
+[submodule "bundle/indentLine"]
+	path = bundle/indentLine
+	url =	https://github.com/Yggdroot/indentLine
+[submodule "bundle/vim-prettier"]
+	path = bundle/vim-prettier
+	url =	https://github.com/prettier/vim-prettier
+[submodule "bundle/vim-gitgutter"]
+	path = bundle/vim-gitgutter
+	url =	git://github.com/airblade/vim-gitgutter.git
