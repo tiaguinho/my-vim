@@ -49,6 +49,11 @@ map <c-p> :FZF<CR>
 autocmd! FileType FZF tnoremap <buffer> <leader>q <c-p>
 nnoremap <silent> <expr> <c-p> (expand('%') =~ 'NERD_tree' ? "\<c-w>\<c-w>" : '').":FZF\<cr>"
 
+" proto config
+augroup filetype
+  au! BufRead,BufNewFile *.proto setfiletype proto
+augroup end
+
 " enable tabline
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tmuxline#enabled = 1
