@@ -14,7 +14,8 @@ syntax on
 set t_Co=256
 set t_ut=
 set background=dark
-" themes available (snow, dracula, forest-night)
+set encoding=utf8
+" themes available (nord-vim, snow, dracula, forest-night)
 colorscheme nord
 " transparent background
 hi Normal guibg=NONE ctermbg=NONE
@@ -28,7 +29,6 @@ set showbreak=+++
 set textwidth=100
 set showmatch
 "set mouse=a
-" set termguicolors
 set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
 
 " tabs by filetype
@@ -58,6 +58,7 @@ augroup end
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tmuxline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'unique_tail'
+let g:powerline_pycmd = 'py3'
 let g:airline_powerline_fonts = 1
 let g:airline_theme = 'nord'
 
