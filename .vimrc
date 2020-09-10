@@ -15,7 +15,7 @@ set t_Co=256
 set t_ut=
 set background=dark
 " themes available (snow, dracula, forest-night)
-colorscheme forest-night
+colorscheme nord
 " transparent background
 hi Normal guibg=NONE ctermbg=NONE
 
@@ -59,7 +59,7 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tmuxline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'unique_tail'
 let g:airline_powerline_fonts = 1
-let g:airline_theme = 'forest_night'
+let g:airline_theme = 'nord'
 
 " syntastic configs
 set statusline+=%#warningmsg#
