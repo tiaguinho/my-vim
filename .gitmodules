@@ -1,6 +1,9 @@
 [submodule "bundle/dracula-theme"]
 	path = bundle/dracula-theme
 	url = https://github.com/dracula/vim
+[submodule "bundle/nord-vim"]
+	path = bundle/nord-vim
+	url = https://github.com/arcticicestudio/nord-vim
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree
