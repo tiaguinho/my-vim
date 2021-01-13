@@ -31,6 +31,10 @@ set showmatch
 "set mouse=a
 set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
 
+" golang configs
+let g:go_fmt_command = "goimports"
+let g:go_auto_type_info = 1
+
 " tabs by filetype
 autocmd FileType php setlocal tabstop=4 shiftwidth=4 smarttab
 
