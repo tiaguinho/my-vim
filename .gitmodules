@@ -42,7 +42,7 @@
 	url =	https://github.com/chriskempson/base16-vim.git
 [submodule "bundle/indentLine"]
 	path = bundle/indentLine
-	url =	https://github.com/Yggdroot/indentLine
+	url = https://github.com/Yggdroot/indentLine
 [submodule "bundle/vim-prettier"]
 	path = bundle/vim-prettier
 	url = https://github.com/prettier/vim-prettier
