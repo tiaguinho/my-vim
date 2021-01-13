@@ -87,3 +87,6 @@ let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 let NERDTreeShowHidden = 1
 let NERDTreeWinSize = 50
+
+" indentLine
+let g:indentLine_char_list = ['|', '¦', '┆', '┊']
